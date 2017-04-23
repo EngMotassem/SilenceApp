@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+        <TextView
+            android:id="@+id/textViewSmssent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Action: Send Sms"
+            android:textColor="#4d4d4d"
+            android:layout_centerHorizontal="true"
+            android:drawableBottom="@drawable/ic_sms_2x"
+            />
+
+        <LinearLayout
+            android:layout_below="@+id/textViewSmssent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:id="@+id/linearLayoutTo"
+            >
+
+            <TextView
+                android:id="@+id/textViewTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="To:"
+                />
+
+            <TextView
+                android:id="@+id/textViewMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:paddingEnd="20dp"
+                android:paddingStart="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="+918757555614"
+                />
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMesssage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/linearLayoutTo"
+            >
+
+            <TextView
+                android:id="@+id/textViewMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Message:"
+                />
+
+            <TextView
+                android:id="@+id/textViewMessagecontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:paddingEnd="20dp"
+                android:paddingStart="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Hey, this is manish."
+                android:maxLines="1"
+                android:maxLength="30"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:paddingEnd="20dp"
+            android:paddingStart="5dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Status: Executed"
+            android:maxLines="1"
+            android:layout_centerHorizontal="true"
+            android:maxLength="30"
+            android:layout_below="@+id/linearLayoutMesssage"
+            />
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/buttonDismiss"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:background="@color/splashgreenback"
+        android:textColor="@color/white"
+        android:text="DISMISS"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,53 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#a5c63f</item>
+        <item name="colorPrimaryDark">#2b2c28</item>
+        <item name="colorAccent">@color/yellow</item>
+    </style>
+
+    <style name="NoActionBarThemeSplash" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">#a5c63f</item>
+        <item name="colorPrimaryDark">@color/gray</item>
+        <item name="colorAccent">@color/splashgreenback</item>
+
+    </style>
+
+    <style name="NoActionBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/splashgreenback</item>
+        <item name="colorPrimaryDark">#2b2c28</item>
+        <item name="colorAccent">#7B0AF4</item>
+
+    </style>
+
+    <style name="NoActionBarThemeSelectContact" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">#a5c63f</item>
+        <item name="colorPrimaryDark">#2b2c28</item>
+        <item name="colorAccent">@color/darkyellow</item>
+
+    </style>
+
+    <style name="NoActionBarThemeReminderActivity" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@android:color/transparent</item>
+
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

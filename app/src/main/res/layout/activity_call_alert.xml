@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+
+        <TextView
+            android:id="@+id/textViewMakecall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Action: Make a Call"
+            android:textColor="#4d4d4d"
+            android:drawableBottom="@drawable/ic_sms_2x"
+            />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/textViewMakecall"
+            >
+
+            <TextView
+                android:id="@+id/textViewTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="To:"
+                />
+
+            <TextView
+                android:id="@+id/textViewMobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:paddingEnd="20dp"
+                android:paddingStart="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="+918757555614"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/textViewStatus"
+            android:layout_below="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:layout_centerHorizontal="true"
+            android:text="Status: Executed"
+            android:maxLines="1"
+            android:maxLength="30"
+            />
+
+
+    <Button
+        android:id="@+id/buttonDismiss"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="18sp"
+        android:background="@color/splashgreenback"
+        android:textColor="@color/white"
+        android:paddingStart="20dp"
+        android:text="DISMISS"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        />
+
+
+</RelativeLayout>
+
+

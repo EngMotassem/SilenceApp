@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/horizontal_scrollview_background"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="10dp"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        >
+
+
+
+        <TextView
+            android:id="@+id/textViewTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To: "
+            android:paddingTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/textViewMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8757555614"
+            android:paddingTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/linearLayout"
+        >
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Message: "
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/textViewMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How you doin?"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageViewCancel"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/ripple_background_cards"
+        android:src="@drawable/ic_cancel_black_48dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017-03-30 17:26"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:gravity="center_horizontal"
+        android:textSize="13sp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignStart="@+id/linearLayout2"
+        android:layout_alignEnd="@+id/linearLayout2"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

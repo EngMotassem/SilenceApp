@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splashgreenback">
+
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appbar"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/ripple_background_cards"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/arrowiconx24"
+
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            >
+
+
+
+            <ImageView
+                android:id="@+id/imageViewIcon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_notifications_active_white_2x"
+                android:layout_marginStart="20dp"
+
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="5dp"
+                android:layout_toEndOf="@+id/imageViewIcon"
+                android:layout_centerVertical="true"
+                >
+
+
+                <TextView
+                    android:id="@+id/textViewPagename"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:paddingEnd="20dp"
+                    android:gravity="center_vertical"
+                    android:text="Set Reminder"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="22sp"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignStart="@+id/textViewPagename"
+                    android:layout_alignEnd="@+id/textViewPagename"
+                    android:background="@color/white"
+                    android:layout_below="@+id/textViewPagename"
+                    />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/edittext_background"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            android:background="@drawable/edittext_background"
+            android:paddingTop="10dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:paddingBottom="10dp"
+            android:paddingStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Select Date"
+            />
+
+
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textSize="15sp"
+            android:background="@drawable/edittext_background"
+            android:paddingTop="10dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:paddingBottom="10dp"
+            android:paddingStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Select Time"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/edittext_background"
+        android:paddingTop="10dp"
+        android:singleLine="true"
+        android:paddingBottom="10dp"
+        android:paddingStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="Title"
+        />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:gravity="top"
+        android:textColor="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="10dp"
+        android:hint="Description"
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLength="2000"
+        android:maxLines="4"
+        />
+
+
+    <Button
+        android:id="@+id/buttonRemindme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/textview_selector"
+        android:text="REMIND ME"
+        android:background="@drawable/button_selector"
+
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewReminders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textViewNoReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:text="No reminders set yet."
+        />
+
+
+</LinearLayout>
+
+</LinearLayout>

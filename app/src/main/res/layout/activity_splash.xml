@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splashgreenback"
+    tools:context="techheromanish.example.com.silenceapp.activities.SplashActivity">
+
+
+    <TextView
+        android:id="@+id/textViewAppname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_marginTop="-20dp"
+        android:text="SilenceApp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/imageViewMobile"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageViewMobile"
+        android:layout_width="100dp"
+        android:layout_height="250dp"
+        android:transitionName="icon"
+        android:src="@drawable/splashcrop"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textViewAppname" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="#2b2c28"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#EEEEEE"
+        app:civ_border_width="4dp"
+        android:layout_gravity="center_horizontal"
+        app:civ_shadow="true"
+        android:layout_marginTop="10dp"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#8BC34A"
+        android:id="@+id/circularImageView" />
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="Manish Kumar"
+        android:textSize="20sp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+         />
+
+
+</LinearLayout>

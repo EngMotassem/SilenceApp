@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_reminder"
+            android:icon="@drawable/ic_add_alert_black_24dp"
+            android:title="Add Reminder" />
+
+        <item
+            android:id="@+id/nav_sms_schedule"
+            android:icon="@drawable/ic_sms_black_24dp"
+            android:title="Sms Schedule" />
+
+        <item
+            android:id="@+id/nav_call_schedule"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Call Schedule" />
+        <item
+            android:id="@+id/nav_add_exception"
+            android:icon="@drawable/ic_person_add_black_48dp"
+            android:title="Add User\n Exception" />
+
+        <item
+            android:id="@+id/nav_delete_exception"
+            android:icon="@drawable/ic_delete_2x"
+            android:title="Delete User \n Exception" />
+
+        <item
+            android:id="@+id/nav_action_contacts"
+            android:icon="@drawable/ic_contact_phone_black_48dp"
+            android:title="Action Contacts" />
+
+    </group>
+
+
+
+</menu>

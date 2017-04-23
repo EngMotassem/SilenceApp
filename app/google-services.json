@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1047285674017",
+    "firebase_url": "https://silenceapp-d11e4.firebaseio.com",
+    "project_id": "silenceapp-d11e4",
+    "storage_bucket": "silenceapp-d11e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047285674017:android:791b16514eae21a4",
+        "android_client_info": {
+          "package_name": "techheromanish.example.com.silenceapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047285674017-2il2fu5d8g106vqdjvfr1ubdmm1j3h19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "techheromanish.example.com.silenceapp",
+            "certificate_hash": "34adad963f40c948f86c0c2f3899f319664a1da0"
+          }
+        },
+        {
+          "client_id": "1047285674017-8f7l0a4c6d5efrkiki5auhn5a869ttn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMERWE78SavjdOcm6wW6_PuYiZqD-5h7s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047285674017-8f7l0a4c6d5efrkiki5auhn5a869ttn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

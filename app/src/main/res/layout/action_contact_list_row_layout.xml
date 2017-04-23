@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:background="@drawable/home_item_background"
+    >
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="Manish Kumar"
+        android:textSize="20sp"
+        />
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="-10dp"
+        android:layout_height="1dp"
+        android:layout_below="@+id/textViewName"
+        android:background="@color/gray"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/view"
+        >
+
+
+        <ImageView
+            android:id="@+id/imageViewCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_camera_unselectedx100" />
+
+
+
+        <ImageView
+            android:id="@+id/imageViewSms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:src="@drawable/ic_sms_unselectedx100" />
+
+        <ImageView
+            android:id="@+id/imageViewCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:src="@drawable/ic_call_unselectedx100" />
+
+
+        <ImageView
+            android:id="@+id/imageViewSilence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_silence_unselectedx100" />
+
+        <ImageView
+            android:id="@+id/imageViewVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:src="@drawable/ic_video_unselectedx100" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_rectangle_white"
+    android:layout_gravity="center"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    >
+
+
+
+    <TextView
+        android:id="@+id/textViewLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:text="LOGOUT"
+        android:textColor="#4d4d4d"
+        android:drawableBottom="@drawable/caution_delete_iconx24"
+        />
+
+    <TextView
+        android:id="@+id/textViewSure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17sp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/textViewLogout"
+        android:text="Are you sure you want to logout?"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textViewSure"
+        android:layout_marginTop="20dp"
+        >
+
+
+        <Button
+            android:id="@+id/buttonNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:background="@drawable/cancel_delete_button_rounded_back"
+            android:textColor="#cfd9e0"
+            android:drawableStart="@drawable/cancel_iconx32"
+            android:text="NO"
+            android:paddingStart="20dp"
+            android:drawablePadding="-40dp"
+            android:layout_weight="1"
+
+            />
+
+        <Button
+            android:id="@+id/buttonYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:background="@drawable/delete_button_rounded_back"
+            android:textColor="@color/white"
+            android:paddingStart="20dp"
+            android:drawablePadding="-40dp"
+            android:text="YES"
+            android:drawableStart="@drawable/ic_check_white_18dp"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

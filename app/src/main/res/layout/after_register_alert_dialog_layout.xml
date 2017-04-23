@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/alert_dialog_background"
+    android:layout_marginStart="30dp"
+    android:layout_marginEnd="30dp"
+    >
+
+
+
+    <TextView
+        android:id="@+id/textViewWantAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="Do you want an avatar for your profile?"
+        android:layout_centerHorizontal="true"
+        android:drawableBottom="@drawable/ic_collections_white_48dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_below="@+id/textViewWantAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+
+        <Button
+            android:id="@+id/buttonYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="Yes"
+            android:textSize="17sp"
+            android:layout_weight="1"
+            />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"
+            />
+
+
+
+        <Button
+            android:id="@+id/buttonNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:text="No"
+            android:textSize="17sp"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>
